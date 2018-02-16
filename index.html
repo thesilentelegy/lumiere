@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>Lumiere</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>	
+	<div class="panel panel-left">
+		<div class="header">
+			<!--<h1>Random<br>Student<br>Generator</h1>-->
+		</div>
+		<div class="button-group">
+			<button class="button reset-button">Reset</button>
+			<button class="button generate-button">Generate</button>
+		</div>
+	</div>
+	<div class="panel panel-right">
+		<span class="output-field number-output">No <span id="student-number">000</span></span>
+		<span class="output-field name-output">Juan de la Cruz<span>
+	</div>
+
+	<script src="data.js"></script>
+	<script src="randomizer.js"></script>
+	<script>
+		function test() {
+			console.log("xxx");
+			var x = "stone";
+			localStorage.setItem("roots",x);
+		}
+	</script>
+</body>
+</html>
